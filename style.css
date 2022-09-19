@@ -133,8 +133,8 @@ h1 {
 }
 
 .box5 {
-    float: right;
-    margin-right: 5px;
+    float: left;
+    margin-left: 5px;
     height: 150px;
     width: 150px;
     border-radius: 30px;
@@ -157,7 +157,7 @@ h1 {
 }
 
 .box6 {
-    float: left;
+    float: right;
     margin-left: 5px;
     height: 150px;
     width: 150px;
@@ -166,7 +166,7 @@ h1 {
 }
 
 .para6 {
-    margin-right: 5px;
+    margin: 20px;
     position: relative;
     top: 15px;
     color: white;
@@ -314,7 +314,7 @@ h1 {
     }
 
     .box5 {
-        float: right;
+        float: left;
         margin-right: 5px;
         height: 350px;
         width: 350px;
@@ -340,7 +340,7 @@ h1 {
     }
 
     .box6 {
-        float: left;
+        float: right;
         margin-left: 5px;
         height: 350px;
         width: 350px;
@@ -350,7 +350,7 @@ h1 {
 
     .para6 {
         font-size: 0.98cm;
-        margin-right: 5px;
+        margin: 20px;
         position: relative;
         top: 10px;
         color: white;
@@ -498,7 +498,7 @@ h1 {
     }
 
     .box5 {
-        float: right;
+        float: left;
         margin-right: 5px;
         height: 350px;
         width: 350px;
@@ -524,7 +524,7 @@ h1 {
     }
 
     .box6 {
-        float: left;
+        float: right;
         margin-left: 5px;
         height: 350px;
         width: 350px;
@@ -534,7 +534,7 @@ h1 {
 
     .para6 {
         font-size: 0.98cm;
-        margin-right: 5px;
+        margin: 20px;
         position: relative;
         top: 10px;
         color: white;
@@ -682,7 +682,7 @@ h1 {
     }
 
     .box5 {
-        float: right;
+        float: left;
         margin-right: 5px;
         height: 350px;
         width: 350px;
@@ -708,7 +708,7 @@ h1 {
     }
 
     .box6 {
-        float: left;
+        float: right;
         margin-left: 5px;
         height: 350px;
         width: 350px;
@@ -718,7 +718,7 @@ h1 {
 
     .para6 {
         font-size: 0.98cm;
-        margin-right: 5px;
+        margin: 20px;
         position: relative;
         top: 10px;
         color: white;
@@ -866,7 +866,7 @@ h1 {
     }
 
     .box5 {
-        float: right;
+        float: left;
         margin-right: 5px;
         height: 350px;
         width: 350px;
@@ -892,7 +892,7 @@ h1 {
     }
 
     .box6 {
-        float: left;
+        float: right;
         margin-left: 5px;
         height: 350px;
         width: 350px;
@@ -902,7 +902,7 @@ h1 {
 
     .para6 {
         font-size: 0.98cm;
-        margin-right: 5px;
+        margin: 20px;
         position: relative;
         top: 50px;
         color: white;
@@ -912,6 +912,8 @@ h1 {
 
 @media all and (max-width:1024px) and (min-width:769px) {
     .body0 {
+        position: absolute;
+        left: 78%;
         margin: 1px auto;
         max-width: 900px;
         width: 55%;
@@ -987,7 +989,7 @@ h1 {
         line-height: 1.3;
         margin: 50px;
         position: relative;
-        top: 5px;
+        top: 50px;
         color: white;
         text-shadow: 1px 1px black;
     }
@@ -1050,7 +1052,7 @@ h1 {
     }
 
     .box5 {
-        float: right;
+        float: left;
         margin-right: 5px;
         height: 350px;
         width: 350px;
@@ -1076,7 +1078,7 @@ h1 {
     }
 
     .box6 {
-        float: left;
+        float: right;
         margin-left: 5px;
         height: 350px;
         width: 350px;
@@ -1086,10 +1088,32 @@ h1 {
 
     .para6 {
         font-size: 0.98cm;
-        margin-right: 5px;
+        margin: 20px;
         position: relative;
         top: 50px;
         color: white;
         text-shadow: 1px 1px black;
+    }
+}
+
+@media all and (max-width:1440px) and (min-width:1025px) {
+    .body0 {
+        position: absolute;
+        left: 25%;
+        margin: 1px auto;
+        max-width: 900px;
+        width: 55%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@media all and (max-width:2560px) and (min-width:1441px) {
+    .body0 {
+        position: absolute;
+        left: 35%;
+        margin: 1px auto;
+        max-width: 1000px;
+        width: 50%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
