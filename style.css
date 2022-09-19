@@ -333,7 +333,7 @@ h1 {
 
     .body4 {
         width: 1120px;
-        height: 565px;
+        height: 555px;
         background-color: rgba(101, 90, 102, 0.884);
         border-radius: 20px;
     }
@@ -351,7 +351,7 @@ h1 {
         font-size: 0.98cm;
         margin: 20px;
         position: relative;
-        top: 5px;
+        top: 3px;
         color: white;
         text-shadow: 1px 1px black;
     }
@@ -383,7 +383,7 @@ h1 {
 
     .body6 {
         width: 1120px;
-        height: 540px;
+        height: 520px;
         background-color: rgba(57, 18, 88, 0.87);
         border-radius: 20px;
     }
@@ -401,7 +401,7 @@ h1 {
         font-size: 0.98cm;
         margin-right: 5px;
         position: relative;
-        top: 20px;
+        top: 10px;
         color: white;
         text-shadow: 1px 1px black;
     }
